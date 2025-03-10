@@ -1,0 +1,30 @@
+/* Basic reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the background color and text properties */
+body {
+  background-color: white;
+  font-family: 'Times New Roman', serif;
+}
+
+/* Style the repeated text */
+.repeated-text {
+  color: blue; /* Set the text color to blue */
+  font-size: 14px; /* Set the font size to smaller */
+  margin: 10px 0; /* Add some space between each line */
+  text-align: center; /* Center the text */
+}
+
+/* Make the content section take up the full height of the screen */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
